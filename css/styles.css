@@ -43,11 +43,21 @@ p {
 /* CARD HEADER PART */
   .card-header {
     text-align: center;
-    background: url("https://github.com/Harshitsoni2000/Profile-card-component/blob/main/images/bg-pattern-card.svg");
+  }
+
+  .header-bg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    z-index: 1;
   }
 
   .victor-img {
     position: relative;
+    z-index: 2;
     top: 70px;
     border-radius: 100%;
     border: 5px solid white;
