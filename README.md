@@ -28,8 +28,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Harshitsoni2000/Profile-card-component)
+- Live Site URL: [Add live site URL here](https://harshitsoni2000.github.io/Profile-card-component/)
 
 ## My process
 
@@ -43,6 +43,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Styled Components](https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css) - For styles
 
 ### What I learned
+
+We can center the content both horizontally and vertically easily using FlexBox.
 
 ```html
 <body></body>
@@ -66,5 +68,5 @@ I want to continue focusing on learning flexbox and grid layout more. This is th
 
 ## Author
 
-- Frontend Mentor - [@Harshitsoni2000](https://www.frontendmentor.io/profile/@Harshitsoni2000)
+- Frontend Mentor - [@Harshitsoni2000](https://www.frontendmentor.io/profile/Harshitsoni2000)
 - GitHub - [@Harshitsoni2000](https://github.com/Harshitsoni2000)
