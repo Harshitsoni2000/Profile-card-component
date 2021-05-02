@@ -14,30 +14,6 @@ p {
   margin: 0;
 }
 
-.bg-top {
-  width: 55%;
-  height: 100%;
-  top: -50%;
-  left: 0;
-  text-align: right;
-  position: absolute;
-  background-image: url(../images/bg-pattern-bottom.svg);
-  background-repeat: no-repeat;
-  z-index: -1;
-  transform: rotate(180deg);
-}
-
-.bg-bottom {
-  width: 55%;
-  height: 100%;
-  bottom: -50%;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-  background-image: url(../images/bg-pattern-bottom.svg);
-  background-repeat: no-repeat;
-}
-
 /* SECTION */
 #section {
   font-family: 'Kumbh Sans', sans-serif;
@@ -47,6 +23,30 @@ p {
   place-items: center;
   position: relative;
   z-index: 0;
+}
+
+.bg-top, .bg-bottom {
+  width: 55%;
+  height: 100%;
+}
+
+.bg-top {
+  top: -50%;
+  left: 0;
+  position: absolute;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.bg-bottom {
+  bottom: -50%;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
 }
 
 /* CARD LAYOUT */
