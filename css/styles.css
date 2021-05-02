@@ -1,9 +1,5 @@
 body {
   background-color: hsl(185, 75%, 39%);
-  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: left -4vw top -30vh, right 1vw bottom -50vh;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -11,15 +7,46 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 p {
   margin: 0;
 }
 
+.bg-top {
+  width: 55%;
+  height: 100%;
+  top: -50%;
+  left: 0;
+  text-align: right;
+  position: absolute;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.bg-bottom {
+  width: 55%;
+  height: 100%;
+  bottom: -50%;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+}
+
 /* SECTION */
 #section {
   font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 0;
 }
 
 /* CARD LAYOUT */
